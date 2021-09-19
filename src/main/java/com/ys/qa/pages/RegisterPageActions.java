@@ -18,14 +18,14 @@ public class RegisterPageActions extends RegisterPageObjects {
 		}
 	}
 
-	public void invalidUSerInformation() {
+	public void invalidUSerInformation(String ftName, String ltName, String emailId, String telNum, String newPwd, String cnfPwd) {
 		defaultStepsRegister();
-		txt_RegisterFirstName.sendKeys("#$@%");
-		txt_RegisterLastName.sendKeys("%#%#");
-		txt_Email.sendKeys("test");
-		num_Telephone.sendKeys("243#%$%");
-		txt_NewPassword.sendKeys("d");
-		txt_ConfirmNewPassword.sendKeys("t");
+		txt_RegisterFirstName.sendKeys(ftName);
+		txt_RegisterLastName.sendKeys(ltName);
+		txt_Email.sendKeys(emailId);
+		num_Telephone.sendKeys(telNum);
+		txt_NewPassword.sendKeys(newPwd);
+		txt_ConfirmNewPassword.sendKeys(cnfPwd);
 
 		boolean bval = radio_Subscriber.get(1).isSelected();
 
@@ -45,15 +45,15 @@ public class RegisterPageActions extends RegisterPageObjects {
 
 	}
 
-	public void duplicateEmail() {
+	public void duplicateEmail(String ftName, String ltName, String emailId, String telNum, String newPwd, String cnfPwd) {
 
 		defaultStepsRegister();
-		txt_RegisterFirstName.sendKeys("John");
-		txt_RegisterLastName.sendKeys("Paul");
-		txt_Email.sendKeys("neyra112@mystickof.com");
-		num_Telephone.sendKeys("9876563123");
-		txt_NewPassword.sendKeys("test");
-		txt_ConfirmNewPassword.sendKeys("test");
+		txt_RegisterFirstName.sendKeys(ftName);
+		txt_RegisterLastName.sendKeys(ltName);
+		txt_Email.sendKeys(emailId);
+		num_Telephone.sendKeys(telNum);
+		txt_NewPassword.sendKeys(newPwd);
+		txt_ConfirmNewPassword.sendKeys(cnfPwd);
 
 		boolean bval = radio_Subscriber.get(1).isSelected();
 
@@ -73,14 +73,14 @@ public class RegisterPageActions extends RegisterPageObjects {
 		assertEquals(duplicateEmailWarning, "Warning: E-Mail Address is already registered!", "both texts are equal");
 	}
 
-	public void validRegisterNewAccount() {
+	public void validRegisterNewAccount(String ftName, String ltName, String emailId, String telNum, String newPwd, String cnfPwd) {
 		defaultStepsRegister();
-		txt_RegisterFirstName.sendKeys("Joseph");
-		txt_RegisterLastName.sendKeys("Paul");
-		txt_Email.sendKeys("clea595@mystickof.com");
-		num_Telephone.sendKeys("9870567890");
-		txt_NewPassword.sendKeys("test");
-		txt_ConfirmNewPassword.sendKeys("test");
+		txt_RegisterFirstName.sendKeys(ftName);
+		txt_RegisterLastName.sendKeys(ltName);
+		txt_Email.sendKeys(emailId);
+		num_Telephone.sendKeys(telNum);
+		txt_NewPassword.sendKeys(newPwd);
+		txt_ConfirmNewPassword.sendKeys(cnfPwd);
 
 		boolean bval = radio_Subscriber.get(1).isSelected();
 

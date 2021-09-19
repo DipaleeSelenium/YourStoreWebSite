@@ -1,30 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50342" started-at="2021-06-30T16:37:49Z" finished-at="2021-06-30T16:38:39Z">
+  <suite name="Default suite" duration-ms="31607" started-at="2021-08-09T17:11:08Z" finished-at="2021-08-09T17:11:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50342" started-at="2021-06-30T16:37:49Z" finished-at="2021-06-30T16:38:39Z">
+    <test name="Default test" duration-ms="31607" started-at="2021-08-09T17:11:08Z" finished-at="2021-08-09T17:11:39Z">
       <class name="com.ys.qa.tests.RegisterPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@5ce81285]" name="setup" is-config="true" duration-ms="36793" started-at="2021-06-30T22:07:49Z" finished-at="2021-06-30T22:08:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="setup" is-config="true" duration-ms="6330" started-at="2021-08-09T22:41:09Z" finished-at="2021-08-09T22:41:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="invalidRegisterTest()[pri:1, instance:com.ys.qa.tests.RegisterPageTest@5ce81285]" name="invalidRegisterTest" duration-ms="4091" started-at="2021-06-30T22:08:25Z" finished-at="2021-06-30T22:08:30Z">
+        <test-method status="PASS" signature="invalidRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="invalidRegisterTest" duration-ms="2166" started-at="2021-08-09T22:41:15Z" data-provider="getRegisterInvalidTestData" finished-at="2021-08-09T22:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anaya9@tractorjj.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.89784568E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Selenium@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegisterTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="teardown" is-config="true" duration-ms="799" started-at="2021-08-09T22:41:17Z" finished-at="2021-08-09T22:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="setup" is-config="true" duration-ms="4417" started-at="2021-08-09T22:41:18Z" finished-at="2021-08-09T22:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="duplicateAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="duplicateAccountTest" duration-ms="2038" started-at="2021-08-09T22:41:23Z" data-provider="getRegisterDuplicateTestData" finished-at="2021-08-09T22:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anaya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anaya9@tractorjj.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.89784568E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateAccountTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="teardown" is-config="true" duration-ms="785" started-at="2021-08-09T22:41:25Z" finished-at="2021-08-09T22:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="setup" is-config="true" duration-ms="4137" started-at="2021-08-09T22:41:25Z" finished-at="2021-08-09T22:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="duplicateAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="duplicateAccountTest" duration-ms="1984" started-at="2021-08-09T22:41:30Z" data-provider="getRegisterDuplicateTestData" finished-at="2021-08-09T22:41:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gumpert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gumpert@tractorjj.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.723123423E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateAccountTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="teardown" is-config="true" duration-ms="751" started-at="2021-08-09T22:41:32Z" finished-at="2021-08-09T22:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="setup" is-config="true" duration-ms="3524" started-at="2021-08-09T22:41:32Z" finished-at="2021-08-09T22:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="validRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="validRegisterTest" duration-ms="2342" started-at="2021-08-09T22:41:36Z" data-provider="getRegisterTestData" finished-at="2021-08-09T22:41:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fransasco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rodrigues]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[isra13@tractorjj.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.767867454E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Selenium@12345]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[both texts are equal expected [ Warning: E-Mail Address is already registered!] but found [Warning: E-Mail Address is already registered!]]]>
+              <![CDATA[both texts are equal expected [Your Account Has Been Created!] but found [Register Account]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: both texts are equal expected [ Warning: E-Mail Address is already registered!] but found [Warning: E-Mail Address is already registered!]
+              <![CDATA[java.lang.AssertionError: both texts are equal expected [Your Account Has Been Created!] but found [Register Account]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.ys.qa.pages.RegisterPageActions.duplicateEmail(RegisterPageActions.java:77)
-	at com.ys.qa.tests.RegisterPageTest.invalidRegisterTest(RegisterPageTest.java:23)
+	at com.ys.qa.pages.RegisterPageActions.validRegisterNewAccount(RegisterPageActions.java:99)
+	at com.ys.qa.tests.RegisterPageTest.validRegisterTest(RegisterPageTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,20 +219,8 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidRegisterTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@5ce81285]" name="teardown" is-config="true" duration-ms="1001" started-at="2021-06-30T22:08:30Z" finished-at="2021-06-30T22:08:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@5ce81285]" name="setup" is-config="true" duration-ms="4274" started-at="2021-06-30T22:08:31Z" finished-at="2021-06-30T22:08:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validRegisterTest()[pri:2, instance:com.ys.qa.tests.RegisterPageTest@5ce81285]" name="validRegisterTest" duration-ms="2702" started-at="2021-06-30T22:08:35Z" finished-at="2021-06-30T22:08:38Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- validRegisterTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@5ce81285]" name="teardown" is-config="true" duration-ms="1431" started-at="2021-06-30T22:08:38Z" finished-at="2021-06-30T22:08:39Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ys.qa.tests.RegisterPageTest@2ac273d3]" name="teardown" is-config="true" duration-ms="817" started-at="2021-08-09T22:41:38Z" finished-at="2021-08-09T22:41:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

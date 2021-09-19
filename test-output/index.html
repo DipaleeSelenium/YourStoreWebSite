@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\amu\AppData\Local\Temp\testng-eclipse--524598636\testng-customsuite.xml</span>
+                    <span>C:\Users\amu\AppData\Local\Temp\testng-eclipse--1229302568\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ys.qa.tests.RegisterPageTest" hash-for-method="invalidRegisterTest">invalidRegisterTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ys.qa.tests.RegisterPageTest" hash-for-method="validRegisterTest(Fransasco, Rodrigues, isra13@tractorjj.com, 9.767867454E9, Selenium@12345, Selenium@12345)">validRegisterTest(Fransasco, Rodrigues, isra13@tractorjj.com, 9.767867454E9, Selenium@12345, Selenium@12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,7 +116,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ys.qa.tests.RegisterPageTest" hash-for-method="validRegisterTest">validRegisterTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ys.qa.tests.RegisterPageTest" hash-for-method="duplicateAccountTest(Gumpert, Thomas, gumpert@tractorjj.com, 8.723123423E9, Selenium@123, Selenium@123)">duplicateAccountTest(Gumpert, Thomas, gumpert@tractorjj.com, 8.723123423E9, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ys.qa.tests.RegisterPageTest" hash-for-method="duplicateAccountTest(Anaya, Pandey, anaya9@tractorjj.com, 9.89784568E8, Selenium@123, Selenium@123)">duplicateAccountTest(Anaya, Pandey, anaya9@tractorjj.com, 9.89784568E8, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ys.qa.tests.RegisterPageTest" hash-for-method="invalidRegisterTest(Harry, Potter, anaya9@tractorjj.com, 9.89784568E8, Selenium@12, Selenium@12)">invalidRegisterTest(Harry, Potter, anaya9@tractorjj.com, 9.89784568E8, Selenium@12, Selenium@12)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -139,17 +149,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidRegisterTest">
-                  </a> <!-- invalidRegisterTest -->
-                  <span class="method-name">invalidRegisterTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: both texts are equal expected [ Warning: E-Mail Address is already registered!] but found [Warning: E-Mail Address is already registered!]
+                  <a name="validRegisterTest(Fransasco, Rodrigues, isra13@tractorjj.com, 9.767867454E9, Selenium@12345, Selenium@12345)">
+                  </a> <!-- validRegisterTest(Fransasco, Rodrigues, isra13@tractorjj.com, 9.767867454E9, Selenium@12345, Selenium@12345) -->
+                  <span class="method-name">validRegisterTest</span>
+                  <span class="parameters">(Fransasco, Rodrigues, isra13@tractorjj.com, 9.767867454E9, Selenium@12345, Selenium@12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError: both texts are equal expected [Your Account Has Been Created!] but found [Register Account]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.ys.qa.pages.RegisterPageActions.duplicateEmail(RegisterPageActions.java:77)
-	at com.ys.qa.tests.RegisterPageTest.invalidRegisterTest(RegisterPageTest.java:23)
+	at com.ys.qa.pages.RegisterPageActions.validRegisterNewAccount(RegisterPageActions.java:99)
+	at com.ys.qa.tests.RegisterPageTest.validRegisterTest(RegisterPageTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -189,9 +200,26 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validRegisterTest">
-                  </a> <!-- validRegisterTest -->
-                  <span class="method-name">validRegisterTest</span>
+                  <a name="duplicateAccountTest(Gumpert, Thomas, gumpert@tractorjj.com, 8.723123423E9, Selenium@123, Selenium@123)">
+                  </a> <!-- duplicateAccountTest(Gumpert, Thomas, gumpert@tractorjj.com, 8.723123423E9, Selenium@123, Selenium@123) -->
+                  <span class="method-name">duplicateAccountTest</span>
+                  <span class="parameters">(Gumpert, Thomas, gumpert@tractorjj.com, 8.723123423E9, Selenium@123, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="duplicateAccountTest(Anaya, Pandey, anaya9@tractorjj.com, 9.89784568E8, Selenium@123, Selenium@123)">
+                  </a> <!-- duplicateAccountTest(Anaya, Pandey, anaya9@tractorjj.com, 9.89784568E8, Selenium@123, Selenium@123) -->
+                  <span class="method-name">duplicateAccountTest</span>
+                  <span class="parameters">(Anaya, Pandey, anaya9@tractorjj.com, 9.89784568E8, Selenium@123, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidRegisterTest(Harry, Potter, anaya9@tractorjj.com, 9.89784568E8, Selenium@12, Selenium@12)">
+                  </a> <!-- invalidRegisterTest(Harry, Potter, anaya9@tractorjj.com, 9.89784568E8, Selenium@12, Selenium@12) -->
+                  <span class="method-name">invalidRegisterTest</span>
+                  <span class="parameters">(Harry, Potter, anaya9@tractorjj.com, 9.89784568E8, Selenium@12, Selenium@12)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +227,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\amu\AppData\Local\Temp\testng-eclipse--524598636\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\amu\AppData\Local\Temp\testng-eclipse--1229302568\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -248,20 +276,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invalidRegisterTest')
+data.setCell(0, 1, 'validRegisterTest')
 data.setCell(0, 2, 'com.ys.qa.tests.RegisterPageTest')
-data.setCell(0, 3, 4091);
+data.setCell(0, 3, 2342);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validRegisterTest')
+data.setCell(1, 1, 'invalidRegisterTest')
 data.setCell(1, 2, 'com.ys.qa.tests.RegisterPageTest')
-data.setCell(1, 3, 2702);
+data.setCell(1, 3, 2166);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'duplicateAccountTest')
+data.setCell(2, 2, 'com.ys.qa.tests.RegisterPageTest')
+data.setCell(2, 3, 2038);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'duplicateAccountTest')
+data.setCell(3, 2, 'com.ys.qa.tests.RegisterPageTest')
+data.setCell(3, 3, 1984);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -293,26 +329,50 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">invalidRegisterTest</span>
-                <span class="method-start">36794 ms</span>
+                <span class="method-name">invalidRegisterTest(Harry, Potter, anaya9@tractorjj.com, 9.89784568E8, Selenium@12, Selenium@12)</span>
+                <span class="method-start">6330 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">40892 ms</span>
+                <span class="method-start">8498 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">41898 ms</span>
+                <span class="method-start">9394 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validRegisterTest</span>
-                <span class="method-start">46172 ms</span>
+                <span class="method-name">duplicateAccountTest(Anaya, Pandey, anaya9@tractorjj.com, 9.89784568E8, Selenium@123, Selenium@123)</span>
+                <span class="method-start">13812 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">48876 ms</span>
+                <span class="method-start">15852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">duplicateAccountTest(Gumpert, Thomas, gumpert@tractorjj.com, 8.723123423E9, Selenium@123, Selenium@123)</span>
+                <span class="method-start">20776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">22762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validRegisterTest(Fransasco, Rodrigues, isra13@tractorjj.com, 9.767867454E9, Selenium@12345, Selenium@12345)</span>
+                <span class="method-start">27128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">29657 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
